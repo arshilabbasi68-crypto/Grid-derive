@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GRID&dérive | Art Installation Agency</title>
+    <meta
+      name="description"
+      content="GRID&dérive is an art installation agency crafting spatial narratives, immersive exhibitions, and site-specific experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a href="#" class="logo">
+        <span class="logo-main">GRID</span><span class="logo-accent">&dérive</span>
+      </a>
+      <a href="#consultation" class="btn btn-solid">Book a Free Consultation</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img
+          src="assets/hero-bg.png"
+          alt=""
+          class="hero-background"
+          aria-hidden="true"
+        />
+        <img
+          src="assets/sculpture.png"
+          alt="Classical sculpture centerpiece"
+          class="hero-sculpture"
+        />
+        <div class="hero-actions hero-actions-left">
+          <a href="#consultation" class="btn btn-solid">Book a Free Consultation</a>
+        </div>
+      </section>
+
+      <section id="work" class="work">
+        <div class="section-head">
+          <p class="eyebrow">Space Studies</p>
+          <h2>explore our art theory</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-study">
+            <button class="study-toggle" type="button" aria-expanded="false">
+              <img src="assets/study-office.png" alt="Afterlight Pavilion study view" />
+              <span class="study-label">The Executive Workspace</span>
+            </button>
+            <p class="study-details">
+              In a space built for focus, art plays a quiet but critical role.
+              <br /><br />
+              Here, the artwork isn’t overpowering — it’s positioned to soften
+              the structure of the space. It introduces an organic layer within
+              a highly controlled environment, creating balance without
+              distraction.
+              <br /><br />
+              Placed at the right height, with the right scale, it becomes part
+              of the workflow — not a break from it.
+              <br /><br />
+              This is the difference between decoration and installation.
+              <br />
+              One fills space. The other shapes how you feel in it.
+            </p>
+          </article>
+          <article class="project-card project-study">
+            <button class="study-toggle" type="button" aria-expanded="false">
+              <img src="assets/study-wall.png" alt="Concrete Tides study view" />
+              <span class="study-label">The Textured Wall</span>
+            </button>
+            <p class="study-details">
+              This is where art takes the lead.
+              <br /><br />
+              The installation is treated as the central element — everything
+              else steps back to support it. The spacing, alignment, and
+              proportion create a visual flow that guides the eye naturally
+              across the wall.
+              <br /><br />
+              It’s not just about what is installed, but how it is installed.
+              <br />
+              The height, the gaps, the symmetry — all of it turns individual
+              pieces into one cohesive statement.
+              <br /><br />
+              That’s when a wall stops being a surface, and starts becoming a
+              feature.
+            </p>
+          </article>
+          <article class="project-card project-study">
+            <button class="study-toggle" type="button" aria-expanded="false">
+              <img src="assets/study-cafe.png" alt="Soft Voltage study view" />
+              <span class="study-label">The Industrial Café</span>
+            </button>
+            <p class="study-details">
+              In spaces like this, art doesn’t sit on walls — it blends into the
+              experience.
+              <br /><br />
+              The elements here aren’t framed or isolated. They’re layered into
+              the environment — from the textures, the objects, to the way
+              visual details are distributed across the space. It creates a
+              rhythm that customers don’t consciously notice, but deeply feel.
+              <br /><br />
+              This is what makes people stay longer.
+              <br />
+              Not just the coffee — but the environment that feels curated,
+              complete, and alive.
+              <br /><br />
+              Art, when installed right, becomes invisible — yet unforgettable.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="approach" class="approach">
+        <div class="section-head">
+          <p class="eyebrow">Approach</p>
+          <h2>Concept to execution, with rigorous spatial detail.</h2>
+        </div>
+        <div class="steps">
+          <article>
+            <h3>01 — Narrative Mapping</h3>
+            <p>
+              We build a conceptual framework from your context, audience, and
+              desired emotional arc.
+            </p>
+          </article>
+          <article>
+            <h3>02 — Spatial Prototyping</h3>
+            <p>
+              Through models and render studies, we test rhythm, scale, and
+              material dialogue before production.
+            </p>
+          </article>
+          <article>
+            <h3>03 — On-site Direction</h3>
+            <p>
+              Our team leads fabrication, installation choreography, and final
+              calibration in space.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="consultation" class="contact">
+        <div class="contact-content">
+          <p class="eyebrow">Free Consultation</p>
+          <h2>Tell us about your agency goals.</h2>
+          <p>
+            Fill this short form and our team will connect with you to discuss
+            concept, timeline, and production scope.
+          </p>
+        </div>
+        <form class="contact-form" id="consultation-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your full name" required />
+          </label>
+          <label>
+            Business Name
+            <input
+              type="text"
+              name="businessName"
+              placeholder="Your business or studio"
+              required
+            />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@business.com" required />
+          </label>
+          <label>
+            Phone No.
+            <input type="tel" name="phone" placeholder="+91 98765 43210" required />
+          </label>
+          <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" />
+          <button type="submit" class="btn btn-solid">Submit</button>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> GRID&dérive. Spatial narratives, precisely built.</p>
+    </footer>
+
+    <div class="thankyou-modal" id="thankyou-modal" aria-hidden="true">
+      <div class="thankyou-card" role="dialog" aria-modal="true" aria-labelledby="thankyou-title">
+        <h3 id="thankyou-title">Thank you!</h3>
+        <p>Our team will reach you within 24 hours.</p>
+        <button type="button" class="btn btn-solid" id="thankyou-close">Close</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
